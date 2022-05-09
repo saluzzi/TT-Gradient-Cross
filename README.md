@@ -2,7 +2,7 @@
 Tensor Train (TT) Gradient Cross algorithm for the resolution of Hamilton Jacobi Bellman equation.
 
 ## Installation
-The code is based on [TT-Toolbox](https://github.com/oseledets/TT-Toolbox) Matlab packages. Download or clone both repositories and add all subdirectories to the Matlab path.
+The code is based on [TT-Toolbox](https://github.com/oseledets/TT-Toolbox) Matlab packages. Download or clone the repository and add all subdirectories to the Matlab path.
 
 ## Contents
 
