@@ -33,5 +33,5 @@ The parameters required for tests are read from the keyboard. The codes provide 
 *  `pontrya2D`  Pontryagin solver for a 2D problem
 *  `maxvol_rect`  MaxVol algorithm
 *  `Ax_cucker` Semilinear form for Cucker Smale
-*  `DxAx_cucker`  Derivative of the semilinear form for Cucker Smale
-* `lagrange_derivative` Derivatives of the Lagrangiab basis
+*  `DxAx_cucker`  Derivatives of the semilinear form for Cucker Smale
+* `lagrange_derivative` Derivatives of the Lagrangian basis
