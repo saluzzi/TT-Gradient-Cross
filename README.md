@@ -12,7 +12,6 @@ The code is based on [TT-Toolbox](https://github.com/oseledets/TT-Toolbox) Matla
 * `test_hjb_2D.m` 2-dimensional optimal control problem with exact solution.
 * `test_hjb_Lorenz.m` Lorenz system.
 *  `test_hjb_cuckersmale.m` Cucker-Smale model.
-* `parse_parameter.m` Auxiliary file to input parameters.
 
 The parameters required for tests are read from the keyboard. The codes provide default parameters for a quick starting experiment.
 
@@ -27,6 +26,7 @@ The parameters required for tests are read from the keyboard. The codes provide 
 
 ### Auxiliary
 
+* `parse_parameter.m` Auxiliary file to input parameters.
 * `gradient_cross.m` TT-Gradient Cross approximation
 * `yex_fun_rank_1` Approximation of a rank 1 function via Amen Cross with a very low tolerance
 * `yex_fun_rank_not_1` Approximation of a function with rank greater than 1 via Amen Cross with a very low tolerance
