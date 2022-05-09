@@ -10,7 +10,7 @@ The code is based on [TT-Toolbox](https://github.com/oseledets/TT-Toolbox) Matla
 
 * `test_high_dim_approx.m `  Approximation of a function in arbitrary dimension.
 * `test_hjb_2D.m` 2-dimensional optimal control problem with exact solution.
-* `test_hjb_2D.m` 2-dimensional optimal control problem with exact solution and control constraints.
+* `test_hjb_2D_constraints.m` 2-dimensional optimal control problem with exact solution and control constraints.
 * `test_hjb_Lorenz.m` Lorenz system.
 *  `test_hjb_cuckersmale.m` Cucker-Smale model.
 
