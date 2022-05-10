@@ -28,7 +28,8 @@
 %   dir: direction of the first computing sweep
 %        The warm-up goes in the opposite direction                     [1]
 %
-% Output: a d-dimensional tt_tensor of coefficients with mode sizes ny
+% Output: a d-dimensional tt_tensor of coefficients with mode sizes ny,
+%         and the total number of soughtfun evaluations
 
 function [y, evalcnt]=gradient_cross(Grids, Bases, soughtfun, tol, lambda, varargin)
 

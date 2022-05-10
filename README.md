@@ -2,7 +2,7 @@
 Tensor Train (TT) Gradient Cross algorithm for the resolution of Hamilton Jacobi Bellman equation.
 
 ## Installation
-The code is based on [TT-Toolbox](https://github.com/oseledets/TT-Toolbox) Matlab packages. Download or clone the repository and add all subdirectories to the Matlab path.
+The code is based on [TT-Toolbox](https://github.com/oseledets/TT-Toolbox) Matlab package. Numerical test scripts will probe and download it automatically using a `check_tt` function. However, if this fails, you should download and setup the TT-Toolbox yourself before running this code.
 
 ## Contents
 
@@ -12,7 +12,7 @@ The code is based on [TT-Toolbox](https://github.com/oseledets/TT-Toolbox) Matla
 * `test_hjb_2D.m` 2-dimensional optimal control problem with exact solution.
 * `test_hjb_2D_constraints.m` 2-dimensional optimal control problem with exact solution and control constraints.
 * `test_hjb_Lorenz.m` Lorenz system.
-*  `test_hjb_cuckersmale.m` Cucker-Smale model.
+* `test_hjb_cuckersmale.m` Cucker-Smale model.
 
 The parameters required for tests are read from the keyboard. The codes provide default parameters for a quick starting experiment.
 
@@ -27,12 +27,13 @@ The parameters required for tests are read from the keyboard. The codes provide 
 
 ### Auxiliary
 
-* `parse_parameter.m` Auxiliary file to input parameters.
-* `gradient_cross.m` TT-Gradient Cross approximation
-* `yex_fun_rank_1` Approximation of a rank 1 function via Amen Cross with a very low tolerance
-* `yex_fun_rank_not_1` Approximation of a function with rank greater than 1 via Amen Cross with a very low tolerance
+*  `parse_parameter.m` Auxiliary file to input parameters.
+*  `gradient_cross.m` TT-Gradient Cross approximation
+*  `yex_fun_rank_1` Reference approximation of a rank 1 function via TT-Gradient Cross with a very low tolerance
+*  `yex_fun_rank_not_1` Reference approximation of a function with rank greater than 1 via TT-Gradient Cross with a very low tolerance
 *  `pontrya2D`  Pontryagin solver for a 2D problem
-*  `maxvol_rect`  MaxVol algorithm
+*  `maxvol_rect`  [Rectangular MaxVol algorithm](https://doi.org/10.1016/j.laa.2017.10.014)
 *  `Ax_cucker` Semilinear form for Cucker Smale
 *  `DxAx_cucker`  Derivatives of the semilinear form for Cucker Smale
-* `lagrange_derivative` Derivatives of the Lagrangian basis
+*  `lagrange_derivative` Derivatives of the Lagrangian basis
+*  `check_tt` Check/download/add-to-path for TT-Toolbox

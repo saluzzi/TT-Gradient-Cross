@@ -4,6 +4,7 @@
 
 clear
 close all
+check_tt;
 
 d = 100;
 try

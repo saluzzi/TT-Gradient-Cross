@@ -6,6 +6,7 @@
 
 clear
 close all
+check_tt;
 
 % Gradient weights
 lambda = parse_parameter('Parameter lambda (default 0.01): ', 0.01);
